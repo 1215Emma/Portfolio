@@ -1,49 +1,118 @@
+#Work {
+    position: absolute; 
+    padding: 0;
+    margin: 0;
+    border: 10px;
+    top: 300px;
+}
+.Example1:hover {
+    position: absolute;
+    padding-right: 1500px;
+    border-right: 100px;
+    top: 1em;
+}
+.Example2 {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    border: 10px;
+    top: 6em;
+}
+.Example3 {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    border: 10px;
+    top: 11em;
+}
+.Example4 {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    border: 10px;
+    top: 16em;
+}
+.Example5 {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    border: 10px;
+    top: 21em;
+}
+.Example6 {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    border: 10px;
+    top: 26em;
+}
+#main-navigation {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    border: 10px;
+    top: 0px;
+}
+#main-introduction {
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px;
+    top: 100px;
+}
+#portfolio-introduction {
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    top: 281px;
+}
+#portfolio-work {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;   
+}
+.Text-Example1 {
+    position: absolute;
+    height: 20px;
+    bottom: 440px;
+    left:112px;
+}
+.Text-Example2 {
+    position: absolute;
+    top: 415px;
+    left: 112px;
+}
+.Text-Example3 {
+    position: absolute;
+    top: 497px;
+    left: 112px;
+}
+
+.Text-Example4 {
+    position: absolute;
+    top: 577px;
+    left: 112px;
+}
+
+.Text-Example5 {
+    position: absolute;
+    top: 655px;
+    left: 112px;
+}
+
+.Text-Example6 {
+    position: absolute;
+    top: 736px;
+    left: 112px;
+}
 
 
 
 #Pink {
-    background-image: url("../images/PalePinkBackground.jpg");
+    background-color: #ffd1dc;
     background-size: cover;
     background-position: center center;
     position: relative; 
-    top: 100%;
-    bottom: 100%;
     height: 100vh;
-    z-index: -10;
-}
-
-.Example1 {
-    position: absolute;
-    top: -700px;
-    right: -20px;
-}
-.Example2 {
-    position: absolute;
-    top: -619px;
-    right: 324px;
-}
-.Example3 {
-    position: absolute;
-    top: -538px;
-    right: 669px;
-}
-.Example4 {
-    position: absolute;
-    top: -532px;
-    right: -19px;
-}
-.Example5 {
-    position: absolute;
-    top: -452px;
-    right: 325px;
-}
-.Example6 {
-    position: absolute;
-    top: -371px;
-    right: 669px;
-}
-#main-navigation {
-    position: absolute;
-    top: -928px;
-    right: 0px;
-}
+    padding: 100px;
+    border: 100px;
+    margin: -8px;
+} 
