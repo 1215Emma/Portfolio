@@ -1,118 +1,116 @@
-#Work {
-    position: absolute; 
-    padding: 0;
+* {
     margin: 0;
-    border: 10px;
-    top: 300px;
-}
-.Example1:hover {
-    position: absolute;
-    padding-right: 1500px;
-    border-right: 100px;
-    top: 1em;
-}
-.Example2 {
-    position: absolute;
     padding: 0;
-    margin: 0;
-    border: 10px;
-    top: 6em;
+    box-sizing:border-box;
 }
-.Example3 {
-    position: absolute;
-    padding: 0;
-    margin: 0;
-    border: 10px;
-    top: 11em;
+
+html{
+    font-size: 10px;
+    font-family: "roboto Cn", sans-serif;
+} 
+
+a {
+    text-decoration: none;
+    color: #eee;
 }
-.Example4 {
-    position: absolute;
-    padding: 0;
-    margin: 0;
-    border: 10px;
-    top: 16em;
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/SeattleHeader.jpg") center no-repeat;
+    background-size: cover;
 }
-.Example5 {
-    position: absolute;
-    padding: 0;
-    margin: 0;
-    border: 10px;
-    top: 21em;
+
+.main-navigation{
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
 }
-.Example6 {
-    position: absolute;
-    padding: 0;
-    margin: 0;
-    border: 10px;
-    top: 26em;
+
+nav{
+    padding-top: 5rem; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.6rem;
 }
-#main-navigation {
-    position: absolute;
-    padding: 0;
-    margin: 0;
-    border: 10px;
-    top: 0px;
+
+.Emma-Tran {
+    font-size: 3rem;
+    font-weight: 300;
 }
+
+.Emma-Tran span {
+    color: #FF1493;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li{ 
+    list-style: none;
+}
+
+nav ul li a{
+    padding: 1rem 0;
+    margin: 0 3rem;
+    position: relative;
+    letter-spacing: 2px;
+}
+
 #main-introduction {
     position: absolute;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 36px;
-    top: 100px;
+    font-family: "roboto Cn", sans-serif;
+    font-size: 24px;
+    color: white;
+    top: 185px;
+    left: 45px;
 }
-#portfolio-introduction {
-    position: absolute;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
-    top: 281px;
+#main-introduction .Aloha {
+    font-size: 48px;
+    color: #ff1493;
 }
-#portfolio-work {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;   
+#main-introduction span {
+    color: #ff1493
 }
-.Text-Example1 {
-    position: absolute;
-    height: 20px;
-    bottom: 440px;
-    left:112px;
-}
-.Text-Example2 {
-    position: absolute;
-    top: 415px;
-    left: 112px;
-}
-.Text-Example3 {
-    position: absolute;
-    top: 497px;
-    left: 112px;
+nav ul li a:last-child {
+    margin-right: 0;
 }
 
-.Text-Example4 {
+nav ul li a::before,
+nav ul li a::after {
+    content: '';
     position: absolute;
-    top: 577px;
-    left: 112px;
+    width: 100%;
+    height: 2px;
+    background-color: #ff1493;
+    left: 0;
+    transform: ScaleX(0);
+    transition: all .5s;
 }
 
-.Text-Example5 {
-    position: absolute;
-    top: 655px;
-    left: 112px;
+nav ul li a::before {
+    top: 0;
+    transform-origin: left;
+}
+nav ul li a::after {
+    bottom: 0;
+    transform-origin: right;
 }
 
-.Text-Example6 {
-    position: absolute;
-    top: 736px;
-    left: 112px;
+nav ul li a:hover::before,
+nav ul li a:hover::after {
+    transform: ScaleX(1);
 }
 
+#Black-Background{
+    background-color:black;
+    height: 200vh;
+}
 
-
-#Pink {
-    background-color: #ffd1dc;
-    background-size: cover;
-    background-position: center center;
-    position: relative; 
-    height: 100vh;
-    padding: 100px;
-    border: 100px;
-    margin: -8px;
-} 
+.Seattle {
+    background-image: url("../images/SeattleCity.png");
+    align-content: center;
+    bottom: 0;
+}
