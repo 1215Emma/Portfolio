@@ -15,7 +15,8 @@ a {
 }
 body {
     overflow-x: hidden;
-    height: 100%;
+    background-color: black;
+    height: 1000px;
 }
 header{
     width: 100%;
@@ -60,7 +61,7 @@ nav ul li a{
     margin: 0 3rem;
     position: relative;
     letter-spacing: 2px;
-}
+    }
 
 #main-introduction {
     position: absolute;
@@ -127,3 +128,19 @@ nav ul li a:hover::after {
     left: 50rem;
 }
 
+#Contact-Me {
+    position: relative;
+    color: white;
+}
+
+#Contact-Me p:first-child {
+    font-size: 36px;
+    bottom: 40rem;
+    left: 50rem;
+}
+
+#Contact-Me p:last-child {
+    font-size: 24px;
+    bottom: 40rem;
+    left: 50rem;
+}
